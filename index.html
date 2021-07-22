@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yaral | Ecuaciones</title>
+</head>
+<body>
+    <main>
+        <h2>Sistemas de ecuaciones lineales de 2 x 2</h2>
+        <h3>Método de GAUSS</h3>
+        <h4>Resolver sistema</h4>
+        <form id="form">
+            <div>
+                <input type="number" step="any" id="firstX" ><label >x +</label>
+                <input type="number" step="any" id="firstY" ><label >y =</label>
+                <input type="number" step="any" id="firstI" >      
+            </div> 
+            <div>
+                <input type="number" step="any" id="SecondX" ><label >x +</label>
+                <input type="number" step="any" id="SecondY" ><label >y =</label>
+                <input type="number" step="any" id="SecondI" >      
+            </div>
+            <input type="submit" value="Resolver"> 
+        </form>
+        <label class="response"></label>
+        <div id="result"></div>
+    </main>
+    <footer>Powered by: <span>Gary Yaral</span> &copy.</footer>
+    <script src="js/solve.js"></script>
+</body>
+</html>
